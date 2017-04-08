@@ -26,8 +26,9 @@ public class Jurnal {
         }
         
         for(int i=0 ; i<n ; i++){
-            System.out.print(fib[i] + " ");
+           temp = fib[i] + temp;
         
     }
-    
+     System.out.println(temp);
+}
 }
